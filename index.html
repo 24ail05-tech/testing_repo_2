@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="24ail05 — a product-focused developer building thoughtful digital experiences." />
     <title>24ail05 — Product-focused developer</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23171713'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-family='Arial,sans-serif' font-size='27' font-weight='700' fill='%23f0eee8'%3E24%3C/text%3E%3C/svg%3E" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
@@ -12,20 +13,21 @@
   </head>
   <body>
     <div class="noise"></div>
-    <header class="site-header">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header" id="top">
       <a class="brand" href="#top" aria-label="24ail05 home">
         <span class="brand-mark">24</span><span>ail05</span>
       </a>
-      <nav class="nav" aria-label="Main navigation">
+      <nav class="nav" id="main-nav" aria-label="Main navigation">
         <a href="#work">Work</a>
         <a href="#approach">Approach</a>
         <a href="#about">About</a>
       </nav>
       <a class="header-cta" href="mailto:hello@24ail05.dev">Let's talk <span>↗</span></a>
-      <button class="menu-button" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+      <button class="menu-button" aria-label="Open menu" aria-controls="main-nav" aria-expanded="false"><span></span><span></span></button>
     </header>
 
-    <main id="top">
+    <main id="main-content">
       <section class="hero shell">
         <div class="hero-copy">
           <p class="eyebrow"><span class="status-dot"></span> Available for select projects · 2026</p>
